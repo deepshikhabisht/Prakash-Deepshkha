@@ -9,8 +9,8 @@ public class SearchNumber {
 		int find=778;
 		
 		int found =0;
-//		System.out.println("Please enter the number you want to find in the array");
-//		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the number you want to find in the array");
+		Scanner sc = new Scanner(System.in);
 
 		for(int i=0;i<a.length;i++) {
 			if(a[i]==find) {
